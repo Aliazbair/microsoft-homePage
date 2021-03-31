@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from '../styles/xbox.module.css'
 
 const Xbox = () => {
   return (
-    <section>
-      <div className=''>
+    <section className={styles.xbox}>
+      <div className={styles.content}>
         <h2>Xbox Game Pass Ultimate</h2>
         <p className=''>
           Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality

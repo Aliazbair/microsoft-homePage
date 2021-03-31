@@ -1,8 +1,8 @@
-import React from 'react'
+import styles from '../styles/footer.module.css'
 
 const Footer = () => {
-  return  <footer class="footer">
-  <div class="footer-inner">
+  return  <footer className={styles.footer}>
+  <div class={styles.footerInner}>
     <div><i class="fas fa-globe fa-2x"></i> English (United States)</div>
     <ul>
       <li><a href="#">Sitemap</a></li>

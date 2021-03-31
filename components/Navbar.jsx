@@ -3,7 +3,7 @@ import styles from '../styles/navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div className=''>
+    <div className='container'>
       <nav className={styles.mainNav}>
         <img src='' alt='' className={styles.logo} />
         <ul className={styles.mainMenu}>

@@ -100,11 +100,12 @@ const Companys=[
         title:'Inverstors',
     },
 ]
+import styles from '../styles/link.module.css'
 
 const Links = () => {
     return (
-        <section>
-            <div className="">
+        <section className={styles.links}>
+            <div className={styles.linksInner}>
                 {/* news */}
                 <ul>
                     <li>Whats's New</li>

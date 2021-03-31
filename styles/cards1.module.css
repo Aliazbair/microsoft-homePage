@@ -1,0 +1,23 @@
+.homeCard{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.homeCard img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.homeCard h3{margin-bottom: 5px;}
+.homeCard a{
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.homeCard a:hover i {
+    margin-left: 10px;
+  }

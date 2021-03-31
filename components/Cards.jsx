@@ -24,10 +24,11 @@ const Products = [
     image: 'https://i.ibb.co/G57P0Pb/card4.png',
   },
 ]
+import styles from '../styles/cards1.module.css'
 
 const Cards = () => {
   return (
-    <section>
+    <section className={styles.homeCard}>
       {Products.map((product) => (
         <div>
           <img src={product.image} alt={product.title} />

@@ -15,10 +15,11 @@ const follows = [
     link: 'https://linkedin.com',
   },
 ]
+import styles from '../styles/follow.module.css'
 
 const Follow = () => {
   return (
-    <section>
+    <section className={styles.follow}>
       <p>Follow Microsoft</p>
       {follows.map((follow) => (
         <a href={follow.link} className=''>
