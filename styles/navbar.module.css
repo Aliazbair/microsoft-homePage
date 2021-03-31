@@ -1,0 +1,25 @@
+.mainNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+.mainNav .logo{
+    width: 110px;
+}
+.mainNav ul{
+    display: flex;
+    list-style:none;
+}
+.mainNav ul li{
+    padding: 0 10px;
+}
+.mainNav ul li a{
+    padding-bottom: 2px;
+}
+.mainNav ul.mainMenu{
+    flex:1;
+    margin-left: 20px;
+}
